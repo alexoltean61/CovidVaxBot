@@ -1,0 +1,2 @@
+# CovidVaxBot
+Telegram bot
