@@ -52,11 +52,11 @@ class TelegramInterface:
 
 		self.manager = Manager()
 		self.get_queue = JoinableQueue()
-		self.c = Controller(session_cookie="",
+		self.c = Controller(session_cookie="MmMzYjdlZTMtYTE2My00NjcwLWIwYzQtNDgzNDc5YjY2YWY4",
 				interface_queue=self.get_queue, verbose=False)
 		self.counties = self.c.get_dictionary()
 		self.reverse_counties = self.reverse_counties()
-		self.vaccines = self.c.get_vacciness()
+		self.vaccines = self.c.get_vaccines()
 
 		self.updater.start_polling()
 		self.updater.idle()
@@ -89,6 +89,9 @@ class TelegramInterface:
 		update.message.reply_text(
 			'	/alerte: va urma...',
 		)
+		return
+
+	def cancel(self, update, context):
 		return
 
 	def preferences(self, update, context):
@@ -268,8 +271,9 @@ class TelegramInterface:
 			i = 0
 			full_msg = str(done_msg.value)
 			while i < len(full_msg):
-				update.message.reply_text(full_msg[i:min(len(full_msg), i+4096)])
-				i += 4096
+				last_enter = full_msg[i:min(len(full_msg), i+4096)].rfind("\n")
+				update.message.reply_text(full_msg[i:i+last_enter])
+				i += last_enter + 1
 		except KeyError:
 			update.message.reply_text("Ai introdus greșit prescurtarea unui județ! Verifică din nou.")
 

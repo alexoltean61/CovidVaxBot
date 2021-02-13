@@ -87,13 +87,13 @@ class Controller:
 			ret_msg += ":\n\n"
 
 			if free == 0:
-				ret_msg += "Nu există locuri libere!"
+				ret_msg += "Nu există locuri libere!\n"
 				task[2].value = ret_msg
 				interface_queue.task_done()
 				continue
 			
 			ret_msg += print_msg
-			ret_msg += f"Total: {free} locuri"
+			ret_msg += f"Total: {free} locuri\n"
 
 			task[2].value = ret_msg
 			interface_queue.task_done()
