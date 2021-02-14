@@ -22,10 +22,10 @@ class Controller:
 		self.listen_proc.start()
 	
 	def get_dictionary(self):
-		return copy.copy(self.dictionary)
+		return dict(copy.copy(self.dictionary))
 
 	def get_vaccines(self):
-		return copy.copy(self.vaccines)
+		return dict(copy.copy(self.vaccines))
 
 	def populate_nested_dictionary(self, crawler):
 		crawler.get_counties()
@@ -113,5 +113,5 @@ class Controller:
 
 
 if __name__ == "__main__":
-	c = Controller(session_cookie="", interface_queue=Queue(), verbose=True)
+	c = Controller(session_cookie="MjZmZjMwMWItMGM2Zi00NWFiLTg5ZWEtYTkyMTgyOGEzOGVm", interface_queue=Queue(), verbose=True)
 	c.join()
