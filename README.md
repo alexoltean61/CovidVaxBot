@@ -8,10 +8,21 @@ Self-hosted, cu un server foarte simplu scris în Flask. Include și codul pentr
 Codul principal a fost gândit pe o structură loosely-MVC (Crawler.py ≃ model, Controller.py ≃ controller, TelegramInterface.py ≃ view), modulo graba impusă de desfășurarea rapidă a pandemiei.
 
 ## Screenshoturi
-![Exemplu de conversație și meniul comenzilor posibile](sample.png?raw=true "Exemplu de conversație și meniul comenzilor posibile")
-![Exemplu de alerte](sample1.png?raw=true "Exemplu de alerte")
-![Reglare preferințe](sample3.png?raw=true "Reglare preferințe")
-![Reglare preferințe](sample4.png?raw=true "Reglare preferințe")
-![Exemplu de conversație](sample2.png?raw=true "Exemplu de conversație")
+<img src="samples/sample.png?raw=true" width=600 alt="Exemplu de conversație și meniul comenzilor posibile">
+*Exemplu de conversație și meniul comenzilor posibile*
 
-![Master bot: meniul comenzilor posibile, logging, mesaje către toți urmăritorii etc.](sample5.png?raw=true "Master bot: meniul comenzilor posibile, logging, mesaje către toți urmăritorii etc.")
+<img src="samples/sample1.png?raw=true" width=600 alt="Exemplu de alerte">
+*Exemplu de alerte*
+
+<img src="samples/sample3.png?raw=true" width=600 alt="Reglare preferințe">
+*Reglare preferințe*
+
+<img src="samples/sample4.png?raw=true" width=600 alt="Reglare preferințe">
+*Reglare preferințe*
+
+<img src="samples/sample2.png?raw=true" width=600 alt="Exemplu de conversație">
+*Exemplu de conversație*
+
+
+<img src="samples/sample5.png?raw=true" width=600 alt="Master bot: meniul comenzilor posibile, logging, mesaje către toți urmăritorii etc.">
+*Master bot: meniul comenzilor posibile, logging, mesaje către toți urmăritorii etc.*
