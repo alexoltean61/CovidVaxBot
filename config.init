@@ -1,0 +1,7 @@
+N2VjMmUxNjYtMjYxNC00YTNlLWIyNDctMTNiZGZjYTZjZmE4
+{"1": "Pfizer", "2": "Moderna", "3": "AstraZeneca"}
+https://programare.vaccinare-covid.gov.ro/scheduling/api/centres
+https://programare.vaccinare-covid.gov.ro/nomenclatures/api/county
+https://programare.vaccinare-covid.gov.ro/auth/login
+{"Host": "programare.vaccinare-covid.gov.ro", "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0", "Connection": "keep-alive", "Referer": "https://programare.vaccinare-covid.gov.ro/", "Accept": "application/json", "Content-Type": "application/json"}
+{"countyID":null,"localityID":null,"name":null,"identificationCode":"1620526400078","masterPersonnelCategoryID":-4,"personnelCategoryID":32,"recipientID":5629171}
