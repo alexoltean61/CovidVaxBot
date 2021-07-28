@@ -8,21 +8,27 @@ Self-hosted, cu un server foarte simplu scris în Flask. Include și codul pentr
 Codul principal a fost gândit pe o structură loosely-MVC (Crawler.py ≃ model, Controller.py ≃ controller, TelegramInterface.py ≃ view), modulo graba impusă de desfășurarea rapidă a pandemiei.
 
 ## Screenshoturi
-<img src="samples/sample.png?raw=true" width=600 alt="Exemplu de conversație și meniul comenzilor posibile">
+<img src="samples/sample.png?raw=true" width=500 alt="Exemplu de conversație și meniul comenzilor posibile">
+
 *Exemplu de conversație și meniul comenzilor posibile*
 
-<img src="samples/sample1.png?raw=true" width=600 alt="Exemplu de alerte">
+<img src="samples/sample1.png?raw=true" width=500 alt="Exemplu de alerte">
+
 *Exemplu de alerte*
 
-<img src="samples/sample3.png?raw=true" width=600 alt="Reglare preferințe">
+<img src="samples/sample3.png?raw=true" width=500 alt="Reglare preferințe">
+
 *Reglare preferințe*
 
-<img src="samples/sample4.png?raw=true" width=600 alt="Reglare preferințe">
+<img src="samples/sample4.png?raw=true" width=500 alt="Reglare preferințe">
+
 *Reglare preferințe*
 
-<img src="samples/sample2.png?raw=true" width=600 alt="Exemplu de conversație">
+<img src="samples/sample2.png?raw=true" width=500 alt="Exemplu de conversație">
+
 *Exemplu de conversație*
 
 
-<img src="samples/sample5.png?raw=true" width=600 alt="Master bot: meniul comenzilor posibile, logging, mesaje către toți urmăritorii etc.">
+<img src="samples/sample5.png?raw=true" width=500 alt="Master bot: meniul comenzilor posibile, logging, mesaje către toți urmăritorii etc.">
+
 *Master bot: meniul comenzilor posibile, logging, mesaje către toți urmăritorii etc.*
